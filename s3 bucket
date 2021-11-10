@@ -10,5 +10,5 @@ import boto3
 #filename = 'file.txt'
 #bucket_name = 'my-noumi'
 s3 = boto3.client("s3")
-s3.create_bucket(Bucket="chef-matrix")
+s3.create_bucket(Bucket="noumi")
 
