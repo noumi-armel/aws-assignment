@@ -1,0 +1,14 @@
+import boto3
+
+# Create an S3 client
+#s3.client = boto3.client('s3')
+#response = s3.client.create_bucket(
+#    ACL = 'private'
+#    bucket_name = 'noumi'
+#)
+
+#filename = 'file.txt'
+#bucket_name = 'my-noumi'
+s3 = boto3.client("s3")
+s3.create_bucket(Bucket="chef-matrix")
+
